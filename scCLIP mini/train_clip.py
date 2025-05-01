@@ -81,7 +81,7 @@ if __name__ == "__main__":
         "--use_seq", action=argparse.BooleanOptionalAction, default=False
     )
     parser.add_argument("--logit_scale", type=float, default=1)  # 2.6592)
-    parser.add_argument("--num_patches", type=int, default=16)
+    parser.add_argument("--num_patches", type=int, default=128)
     parser.add_argument(
         "--early_stop", action=argparse.BooleanOptionalAction, default=False
     )
